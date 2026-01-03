@@ -1,6 +1,6 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
-import { ApolloProvider } from "@apollo/client";  // <-- fix here
+import { ApolloProvider } from "@apollo/client/react";
 import client from "@/graphql/apolloClient";
 
 export default function App({ Component, pageProps }: AppProps) {
